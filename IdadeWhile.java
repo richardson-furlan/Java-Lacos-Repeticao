@@ -6,8 +6,7 @@ public class IdadeWhile {
 
 	public static void main(String[] args) {
 		
-		int idade;
-		int menor = 0, maior = 0;
+		int idade, menor = 0, maior = 0;
 		
 		Scanner leia = new Scanner(System.in);
 			
@@ -18,7 +17,8 @@ public class IdadeWhile {
 			
 			if (idade < 21) {
 				menor++;
-			} else if (idade > 50) {
+			}
+			if (idade > 50) {
 				maior++;
 			}
 			
